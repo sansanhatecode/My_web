@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trip Around The World</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT -->
+    <link rel="stylesheet" href="./FONT/fonts.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+<body>
+    <!-- navbar -->
+        <nav class="navbar">
+            <div class="container flex">
+                <a href="index.html" class="site-brand">
+                    Trip<span>Boss</span>
+                </a>
+
+                <button type="button" id="navbar-show-btn" class="flex">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div id="navbar-collapse">
+                    <button type="button" id="navbar-close-btn" class="flex">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">About</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- Header -->
+        <header class="flex header-sm">
+            <div class="container">
+                <div class="header-title">
+                    <h1> Gallery</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, illo, quam, exercitationem porro unde culpa vitae saepe earum officia aperiam optio a consequuntur laborum accusamus nihil veritatis hic natus quo!</p>
+                </div>
+                
+            </div>
+        </header>
+        <!-- header -->
+
+
+        <!-- gallery section -->
+        <div id="gallery" class="py-4">
+            <div class="container">
+                <div class="gallery-row">
+                    <div class="gallery-item shadow">
+                        <img src="./Img/baibien.jpg" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem1.webp" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem2.webp" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem3.webp" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem4.jpg" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem5.jpg" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem6.jpg" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem7.jpg" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="gallery-item shadow">
+                        <img src="./Img/diadiem8.jpg" alt="gallery img">
+                        <span class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end of gallery section -->
+
+        <!-- img modal -->
+        <div id="img-modal-box">
+            <div id="img-modal">
+                <button type="button" id="modal-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button type="button" id="prev-btn" class="flex">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button type="button" id="next-btn" class="flex">
+                    <i class="fas fa-chevron-right"></i>
+                    <img src="./Img/baibien.jpg" alt="">
+                </button>
+            </div>
+
+        </div>
+       
+
+        
+
+        <!--footer  -->
+        <footer class="py-4">
+            <div class="container footer-row">
+                <div class="footer-item">
+                    <a href="index.html" class="site-brand">
+                        Trip<span>Boss</span>
+                    </a>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius libero odio a nihil soluta placeat nobis optio assumenda commodi autem eum fuga in minus ea, sint delectus repellat suscipit.</p>
+                </div>
+
+                <div class="footer-item">
+                    <h2>Flow us on: </h2>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h2>Các địa điểm phổ biến: </h2>
+                    <ul>
+                        <li><a href="#">Hạ Long</a></li>
+                        <li><a href="#">Cổ Loa</a></li>
+                        <li><a href="#">Nhật Bản</a></li>
+                        <li><a href="#">Trung Quốc</a></li>
+                        <li><a href="#">Hàn Quốc</a></li>
+                    </ul>
+                </div>
+
+                <div class="subscribe-form footer-item">
+                    <h2>Subscribe for us</h2>
+                    <form class="flex">
+                        <input type="email" placeholder="Enter Email" class="form-control">
+                        <input type="submit" class="btn" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- js -->
+        <script src="./js/script.js"></script>
+        <script>
+            //image modal
+            const allGalleryItem = document.querySelectorAll('.gallery-item');
+            const imgModalDiv = document.getElementById('img-modal-box');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+            const nextBtn =document.getElementById('next-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            let imgIndex = 0;
+
+            allGalleryItem.forEach(( galleryItem) =>  {
+                galleryItem.addEventListener('click',() =>{
+                    imgModalDiv.style.display='block';
+                    let imgSrc = galleryItem.querySelector('img').src;
+                    console.log(imgSrc);
+                    ImgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+                    console.log(ImgIndex);
+                })
+            });
+
+            modalCloseBtn.addEventListener('click', () => {
+                imgModalDiv.style.display = "none";
+            })
+
+        </script>
+
+    
+</body>
+</html>

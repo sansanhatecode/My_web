@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trip Around The World</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT -->
+    <link rel="stylesheet" href="./FONT/fonts.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+<body>
+    <!-- navbar -->
+        <nav class="navbar">
+            <div class="container flex">
+                <a href="index.html" class="site-brand">
+                    Trip<span>Boss</span>
+                </a>
+
+                <button type="button" id="navbar-show-btn" class="flex">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div id="navbar-collapse">
+                    <button type="button" id="navbar-close-btn" class="flex">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="blog.html" class="nav-link">About</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- Header -->
+        <header class="flex">
+            <div class="container">
+                <div class="header-title">
+                    <h1> Leave your Footprints</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, illo, quam, exercitationem porro unde culpa vitae saepe earum officia aperiam optio a consequuntur laborum accusamus nihil veritatis hic natus quo!</p>
+                </div>
+                <div class="header-form">
+                    <h2>Chọn địa điểm du lịch: </h2>
+                    <form class="flex">
+                        <input type="text" class="form-control" placeholder="Destination name">
+                        <input type="date" class="form-control" placeholder="Date">
+                        <input type="number" class="form-control" placeholder="Price ($)">
+                        <input type="submit" class="btn" value="Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id="feature" class="py-4">
+            <div class="container">
+                <div class="title-wrap">
+                    <span class="sm-title">Tìm hiểu địa điểm du lịch</span>
+                    <h2 class="lg-title">Địa điểm nổi tiếng</h2>
+                </div>
+
+
+                <div class="featured-row">
+                    <div class="featured-item my-2 shadow">
+                        <img src="./Img/dulich.jpg" alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"> </i>
+                                    Đảo Nami-Hàn Quốc
+                               
+                            </span>
+                            <div>
+                                <p class="text">
+                                    Đảo Nami Hàn Quốc là một trong những hòn đảo nhỏ của Hàn Quốc. Đảo có hình bán nguyệt rộng khoảng 462,809m2 nằm ở Chuncheon của đất nước Hàn Quốc. Nằm cách thủ đô Seoul khoảng 63km về phía tỉnh Chuncheon (phía nam Hàn Quốc) đảo Nami luôn là địa điểm du lịch có sức hút đối với du khách. Mặc dù có diện tích nhỏ nhưng đảo Nami luôn thay đổi cảnh sắc theo mùa tạo nên khung cảnh tuyệt đẹp. Vì vậy, du khách có nhiều trải nghiệm thú vị nhất 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="./Img/thapEiffen.jpg" alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"> </i>
+                                    Tháp Eiffen-Paris, Pháp
+                               
+                            </span>
+                            <div>
+                                <p class="text">
+                                    Chắc hẳn ấn tượng đầu tiên về đất nước hình lục lăng chính là tháp Eiffel. Từ khi khánh thành cho đến nay, tháp Eiffel đã đón khoảng 250 triệu lượt khách đến thăm. Những năm gần đây, mỗi năm tháp đón khoảng 7 triệu lượt khách, là một trong những công trình thu phí thu hút nhất thế giới.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="./Img/CauVang.jpg" alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"> </i>
+                                    Cầu Vàng Bà Nà Hill-Đà Nẵng
+                               
+                            </span>
+                            <div>
+                                <p class="text">
+                                    Cầu Vàng Đà Nẵng là công trình nằm trong quần thể du lịch Sun World Bà Nà Hills Đà Nẵng. Cây cầu này tọa lạc ở vị trí lưng chừng núi và ở độ cao hơn 1400m so với mực nước biển. Cầu Vàng gây “chấn động” không chỉ bởi vị trí độc đáo mà còn bởi thiết kế vô cùng ấn tượng.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="./Img/hime.jpg" alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"> </i>
+                                    Lâu đài Himeji, Nhật Bản
+                               
+                            </span>
+                            <div>
+                                <p class="text">
+                                    Sẽ thật thiếu sót nếu du lịch Nhật Bản mà bạn lại bỏ qua lâu đài Himeji tại tỉnh Hyogo. Đây là lâu đài được trùng tu từ một pháo đài cổ xưa và được ví như hình mẫu kiến trúc của một lâu đài Nhật Bản.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="featured-item my-2 shadow">
+                        <img src="./Img/CoLoa.webp" alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"> </i>
+                                    Khu du lịch văn hóa Cổ Loa, Hà Nội
+                               
+                            </span>
+                            <div>
+                                <p class="text">
+                                    Khi đến đây, bạn sẽ được chiêm ngưỡng kiến trúc tổng thể độc đáo, mang đậm dấu ấn cổ xưa; tận mắt ngắm nhìn các di vật khảo cổ. Đặc biệt, vào mùa lễ hội, địa điểm này thu hút rất đông khách du lịch đến tham quan và trải nghiệm.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="./Img/hinh-anh-van-ly-truong-thanh_1.jpg" alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"> </i>
+                                    Vạn Lý Trường Thành, Trung Quốc
+                               
+                            </span>
+                            <div>
+                                <p class="text">
+                                    Vạn Lý Trường Thành dài khoảng 6000km, là một trong bảy kỳ quan của Thế giới và được UNESCO công nhận là Di sản Văn hóa Thế giới. Là bức tường thành bắc từ Đông sang Tây băng qua sa mạc, rừng cây, núi non, nơi này là nhân chứng lịch sử sống mãi với thời gian của Trung Quốc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- end of  featured section -->
+
+        <!-- services section -->
+        <section id="services" class="py-4">
+            <div class="container">
+                <div class="title-wrap">
+                    <span class="sm-title">
+                        Các dịch vụ đề cử
+                    </span>
+                    <h2 class="lg-services">Dịch vụ</h2>
+                </div>
+
+                <div class="services-row">
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-hotel"></i>
+                        </span>
+
+                        <h3>
+                            Khách sạn sang trọng
+                        </h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure vel maxime nisi consequatur natus. Sequi necessitatibus officia doloribus aliquam nobis, voluptatem officiis blanditiis beatae provident eius amet soluta voluptatum.
+                        </p>
+                        <a href="#" class="btn">Đọc thêm</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+
+                        <h3>
+                            Hướng dẫn du lịch
+                        </h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure vel maxime nisi consequatur natus. Sequi necessitatibus officia doloribus aliquam nobis, voluptatem officiis blanditiis beatae provident eius amet soluta voluptatum.
+                        </p>
+                        <a href="#" class="btn">Đọc thêm</a>
+                    </div>
+
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-money-bill"></i>
+                        </span>
+
+                        <h3>
+                            Giá cả hợp lý
+                        </h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure vel maxime nisi consequatur natus. Sequi necessitatibus officia doloribus aliquam nobis, voluptatem officiis blanditiis beatae provident eius amet soluta voluptatum.
+                        </p>
+                        <a href="#" class="btn">Đọc thêm</a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </section>
+        <!-- end of services section-->
+
+
+        <!-- testimonials section -->
+
+        <section id="testimonials" class="py-4" >
+            <div class="container">
+                <div class="title-wrap">
+                    <span class="sm-title">Đánh giá của khách hàng về dịch vụ của chúng tôi</span>
+                    <h2 class="lg-title">Đánh giá điển hình</h2>
+                </div>
+
+                <div class="test-row">
+
+                    <div class="test-item">
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint unde similique doloribus exercitationem incidunt explicabo officiis quos inventore adipisci, expedita labore atque, libero illum.</p>
+                        <div class="test-item-info">
+                            <img src="./Img/choiCoLoa.jpg" alt="danhgia">
+                    <div>
+                        <h3>Hoàng Quốc Huy</h3>
+                        <p class="text">Chuyến đi khám phá di tích thành Cổ Loa</p>
+                    </div>
+                </div>
+            </div>
+        
+
+                
+                    <div class="test-item">
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut cupiditate blanditiis mollitia nemo nostrum numquam sunt quod et. Possimus, voluptatem id? Est nam neque impedit natus aperiam, porro dignissimos perferendis ab reiciendis?</p>
+                        <div class="test-item-info">
+                            <img src="./Img/selfiePhap.jpg" alt="danhgia">
+                            <div>
+                                 <h3>Anna và Sofia</h3>
+                                 <p class="text">Chuyến đi tham quan tháp Eiffel tại Pháp</p>
+                            </div>
+                        </div>
+                     </div>
+       
+            
+
+                
+                    <div class="test-item">
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat necessitatibus voluptas earum asperiores incidunt a, omnis esse, quos animi aspernatur voluptates blanditiis eius quas!</p>
+                        <div class="test-item-info">
+                            <img src="./Img/duichvltt.jpg" alt="danhgia">
+                             <div>
+                                <h3>Kelvin Jones</h3>
+                                    <p class="text">Chuyến đi Vạn Lý Trường Thành</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- end of testimonials sections -->
+
+        <!-- video section -->
+        <section id="video">
+            <div class="video-wrapper flex">
+                <video loop>
+                    <source src="./Videos/canh-mien-phi-33871.mp4" type="video/mp4">
+                </video>
+                <button type="button" id="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!--footer  -->
+        <footer class="py-4">
+            <div class="container footer-row">
+                <div class="footer-item">
+                    <a href="index.html" class="site-brand">
+                        Trip<span>Boss</span>
+                    </a>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius libero odio a nihil soluta placeat nobis optio assumenda commodi autem eum fuga in minus ea, sint delectus repellat suscipit.</p>
+                </div>
+
+                <div class="footer-item">
+                    <h2>Flow us on: </h2>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h2>Các địa điểm phổ biến: </h2>
+                    <ul>
+                        <li><a href="#">Hạ Long</a></li>
+                        <li><a href="#">Cổ Loa</a></li>
+                        <li><a href="#">Nhật Bản</a></li>
+                        <li><a href="#">Trung Quốc</a></li>
+                        <li><a href="#">Hàn Quốc</a></li>
+                    </ul>
+                </div>
+
+                <div class="subscribe-form footer-item">
+                    <h2>Subscribe for us</h2>
+                    <form class="flex">
+                        <input type="email" placeholder="Enter Email" class="form-control">
+                        <input type="submit" class="btn" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- js -->
+        <script src="./js/script.js"></script>
+        <script>
+            let video = document.querySelector
+            ('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                }else{
+                    video.pause();
+                }
+            } )
+        </script>
+
+    
+</body>
+</html>
